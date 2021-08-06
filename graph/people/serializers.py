@@ -39,4 +39,4 @@ class RelationshipSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Relationship
-        fields = ('source', 'target', 'statuses')
+        fields = ('id', 'source', 'target', 'statuses')
